@@ -71,6 +71,8 @@ auto-completion-tab-key-behavior = "smart"
   name = "lang#python"
 [[layers]]
   name = "lang#json"
+[[layers]]
+  name = "git"
 [[custom_plugins]]
     name="Valloric/YouCompleteMe"
     merge=0

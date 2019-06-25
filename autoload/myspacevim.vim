@@ -7,6 +7,10 @@ func! s:ycm_conf() abort
   let g:ycm_error_symbol = "**"
   let g:ycm_warning_symbol = "??"
   let g:ycm_confirm_extra_conf=0
+  let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
+  let g:syntastic_cpp_compiler = 'g++'
+  let g:ycm_clangd_uses_ycmd_caching = 0
+  let g:ycm_clangd_binary_path = exepath("clangd")
 endf
 
 func! s:python_conf() abort
