@@ -9,8 +9,9 @@ func! s:ycm_conf() abort
   let g:ycm_confirm_extra_conf=0
   let g:syntastic_cpp_compiler_options = '-std=c++11 -stdlib=libc++'
   let g:syntastic_cpp_compiler = 'g++'
-  let g:ycm_clangd_uses_ycmd_caching = 0
-  let g:ycm_clangd_binary_path = exepath("clangd")
+  let g:ycm_use_clangd = 0
+  " let g:ycm_clangd_uses_ycmd_caching = 0
+  " let g:ycm_clangd_binary_path = exepath("clangd")
 endf
 
 func! s:python_conf() abort
@@ -23,6 +24,7 @@ func! s:normal_conf() abort
   set norelativenumber
   set pastetoggle=<F2>
   let g:acp_enableAtStartup = 0
+  set wrap
 endf
 func! myspacevim#after() abort
   call s:normal_conf()

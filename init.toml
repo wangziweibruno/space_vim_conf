@@ -74,6 +74,6 @@ auto-completion-tab-key-behavior = "smart"
 [[layers]]
   name = "git"
 [[custom_plugins]]
-    name="Valloric/YouCompleteMe"
+    name="vim-scripts/a.vim"
     merge=0
 
