@@ -23,3 +23,6 @@ git config --global core.editor "nvim"
 echo export EDITOR=/usr/local/nvim-linux64/bin/nvim >> ~/.bashrc
 source ~/.bashrc
 ```
+
+SPACEVIM https://spacevim.org/cn/
+NEOVIM https://neovim.io/
