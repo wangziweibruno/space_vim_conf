@@ -2,7 +2,7 @@
 
 1. install space vim
 ```
-curl -sLf https://spacevim.org/cn/install.sh 
+curl -sLf https://spacevim.org/cn/install.sh | bash
 ```
 2. download this conf and rename to .SpaceVim.d
 3. download neo vim 
